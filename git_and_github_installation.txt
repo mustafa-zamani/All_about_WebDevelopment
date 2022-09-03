@@ -1,0 +1,19 @@
+open terminal
+sudo apt update
+sudo apt upgrade
+sudo apt install git
+git config --global user.name "Your_name"
+git config --global user.email "Your_email_address"
+change the directory to your desired address for github repository 
+mkdir "Name a folder for your repo"
+open github on browser
+create a repository 
+click on code button copy Github CLI 
+back to terminal
+sudo snap install gh
+
+for github CLI
+	git clone "your clone address here" 
+for https
+git clone https://github.com/mustafa-zamani/All_about_WebDevelopment.git.
+enter your password
