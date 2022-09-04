@@ -1,0 +1,95 @@
+#show bash terminals
+cat /etc/shels
+
+which bash
+
+#create a script
+touch file_name.sh
+
+#start with #!/bin/bash
+echo "some text for try"
+
+#grant execute permission
+chmod +x bash_filename.sh
++x executabale permission
+
+#redirect to file_name
+echo "some text for try" > file.txt #store the output to another file.txt
+
+#refering to file
+cat > file.txt
+cat >> file.txt     #append another line of txt
+
+#variable here
+var ="text"
+echo "your $var here"
+
+#user_input
+read -p "Enter your name here" NAME
+echo "Hello $NAME"
+
+#Comments
+# single line comment start with a # mark
+#multi line comment 
+:' some lines of text 
+    ----------------
+    ----------------
+    ----------------'
+
+#Heredoc comment
+    cat << AN_Identifier 
+            -----------
+            -----------
+            -----------
+    AN_Identifier
+
+ 
+conditional statements
+########
+# val1 -eq val2 Returns true if the values are equal
+# val1 -ne val2 Returns true if the values are not equal
+# val1 -gt val2 Returns true if val1 is greater than val2
+# val1 -ge val2 Returns true if val1 is greater than or equal to val2
+# val1 -lt val2 Returns true if val1 is less than val2
+# val1 -le val2 Returns true if val1 is less than or equal to val2
+########
+
+########
+# -d file   True if the file is a directory
+# -e file   True if the file exists (note that this is not particularly portable, thus -f is generally used)
+# -f file   True if the provided string is a file
+# -g file   True if the group id is set on a file
+# -r file   True if the file is readable
+# -s file   True if the file has a non-zero size
+# -u    True if the user id is set on a file
+# -w    True if the file is writable
+# -x    True if the file is an executable
+########
+
+var = 10
+if [ $var -eq 10 ]
+then
+    echo "the condition is true"
+fi
+
+
+var = 10
+if [ $var -ne 10 ]
+then
+    echo "the condition is true"
+else
+    echo "the condition is false"
+fi
+
+var = 10
+if [ $var -ne 10 ]
+then
+    echo "the condition is true"
+elif(($var <=9))
+then
+    echo "your text"
+else
+    echo "the condition is false"
+fi
+
+https://gist.github.com/bradtraversy/ac3b1136fc7d739a788ad1e42a78b610
