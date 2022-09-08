@@ -16,10 +16,10 @@ if(file_exists()){
     clearstatcache();
     $file = fopen('foo.txt', 'r'); # r is read fopen is a ref to external resources
 }else{
-    echo "sdfafa;"
+    echo "sdfafa";
 }
 
-while( ($line = fgets($file) !=== false){
+while( ($line = fgets($file) !== false){
     echo $line . '<br />';
 }
 
