@@ -19,7 +19,7 @@ if(file_exists()){
     echo "sdfafa";
 }
 
-while( ($line = fgets($file) !== false){
+while( ($line = fgets($file)) !== false){
     echo $line . '<br />';
 }
 
