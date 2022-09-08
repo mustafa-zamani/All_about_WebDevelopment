@@ -1,0 +1,2 @@
+sudo dpkg -i example.deb
+sudo apt install ./file_name.deb
