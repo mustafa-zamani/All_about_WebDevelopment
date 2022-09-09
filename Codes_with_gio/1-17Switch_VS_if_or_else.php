@@ -30,9 +30,10 @@ switch($paymentStatuse)
         break 2;
 
     case 'declined':
-        continue 2;
+        
         echo 'declined';
-        break;
+        continue 2;
+        
 
     case 'Pending':
         echo 'Pending';
@@ -61,7 +62,7 @@ if($x()===1){
     echo 4;
 }
 
-switch(x()){
+switch(x())
 {
     case 1:
     case '1': 
@@ -69,7 +70,7 @@ switch(x()){
         break 2;
 
     case 2:
-        continue 2;
+        
         echo 2;
         break;
 
@@ -78,4 +79,5 @@ switch(x()){
         break;
     default:
         echo 'unknown umber';
+        continue 2;
 }
