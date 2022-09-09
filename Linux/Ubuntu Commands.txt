@@ -1,2 +1,8 @@
 sudo dpkg -i example.deb
 sudo apt install ./file_name.deb
+
+================================
+
+unzip .tar.xz files
+sudo apt install xz-utils
+tar -xvf file_name.tar.xz
