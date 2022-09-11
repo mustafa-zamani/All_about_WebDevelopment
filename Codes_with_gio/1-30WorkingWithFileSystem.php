@@ -23,7 +23,7 @@ while( ($line = fgets($file)) !== false){
     echo $line . '<br />';
 }
 
-while( ($line = fgetcsv($file) !=== false){     #check by comma soperator 
+while( ($line = fgetcsv($file) !== false)){ 
     echo $line . '<br />';
 }
 
