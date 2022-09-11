@@ -16,6 +16,17 @@ echo 'hello', ' ', 'world';
 // but can have in other part of var except specail char
 // and can not be assigned to $this
 // valid var $_abd123 or $adfa_123;
+// function name is not case sensitive 
+// keywords can't be var name
+/*
+The following are case-insensitive in PHP:
+
+PHP constructs such as if, if-else, if-elseif, switch, while, do-while, etc.
+Keywords such as true and false.
+User-defined function & class names.
+On the other hand, variables are case-sensitive. e.g., $message and $MESSAGE are different variables.
+*/
+
 $firstName = 'Gio';
 echo 'Hello $firstName'.'<br />';
 echo "Hello $firstName".'<br />';
@@ -29,3 +40,6 @@ or
 # // IS SINGLE LINE COMMENT
 //  $ ISN INLINE COMMENT
 /* YOUR COMMENTS GOES HERE */ # IS A MULTI LINE COMMENT AND DON'T NEST MULTI LINE COMMENT
+
+// for more information read 
+// https://www.phptutorial.net/php-tutorial/php-syntax/
