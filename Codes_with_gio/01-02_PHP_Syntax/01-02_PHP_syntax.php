@@ -26,3 +26,6 @@ echo "Hello {$firstName}".'<br />';
 or 
 <h1> <?= "hello World" ?> </h1> 
 *?
+# // IS SINGLE LINE COMMENT
+//  $ ISN INLINE COMMENT
+/* YOUR COMMENTS GOES HERE */ # IS A MULTI LINE COMMENT AND DON'T NEST MULTI LINE COMMENT
